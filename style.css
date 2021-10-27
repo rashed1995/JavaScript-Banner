@@ -1,0 +1,74 @@
+.container{
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+    position: relative; 
+}
+.logo-container{
+    background-repeat: no-repeat;
+    position: absolute; 
+    left: 20px;
+    top: 20px;
+     
+
+}
+.image1{
+     height: 40px;
+     width: 40px;  
+     backface-visibility: hidden;  
+     
+}
+.text{
+    position: absolute;
+    top: 10px
+}
+h1{ 
+    color: white;
+    margin-left: 20px;
+    margin-top: 80px;
+} 
+h3{
+    color: white;
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+.btn{
+    position: absolute; 
+     left: 1px;
+     top: 180px;
+    margin-left: 20px;
+}
+button{
+    padding: 10px 25px;
+    color: white;
+    border-radius: 30px;
+    background-color:rgb(248, 79, 79);
+    border: none;
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0%{
+        box-shadow: 0 0 0 0px rgba(245, 162, 162, 0.918) ;
+        transform: scale(1);
+    }
+    70%{
+        box-shadow: 0 0 0 5px rgba(245, 162, 162, 0.918) ;
+        transform: scale(1.1);
+    }
+    100%{
+        box-shadow: 0 0 0 0px rgba(245, 162, 162, 0.918) ;
+        transform: scale(1);
+    }
+}
+.image-container{
+    position: absolute; 
+     left: 180px;
+     top: 1px;
+}
+.image2{
+     height: 250px;
+     width: 100px; 
+    
+     
+}
